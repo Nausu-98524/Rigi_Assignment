@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    height: 48px;
+    color:white;
+    background-color: rgba(237, 230, 22, 0.884);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hbtn{
+    background-color: blue;
+    color: white;
+    border-radius: 9px;
+    height: 28px;
+    width: 147px;
+}
+.first{
+    height: 351px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.f_div{
+    padding: 25px 25px;
+}
+.days{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.f_img{
+    height: 50px;
+    width: 30px;
+}
+.img1{
+    height: 350px;
+    width: 251px;
+}
+
+
+
+/* Second Partt */
+.second{
+    height: 380px;
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+/* .second tr{
+    display: flex;
+    flex-direction: column;
+} */
+.sec_heading{
+    padding: 15px 15px;
+    color: aliceblue;
+    background-color: black;
+}
+.secret{
+    color: rgba(237, 230, 22, 0.884);
+    padding-left: 156px;
+}
+.heading{
+    color: white;
+}
+.line{
+    padding-top: 20px;
+}
+/* .line .hhhh{
+    display: flex;
+    flex-direction: column;
+} */
+.icon_color{
+    color: rgba(237, 230, 22, 0.884);
+}
+.craft {
+    color: white;
+    padding-left: 49px;
+}
+.f_name{
+    color: rgba(237, 230, 22, 0.884);
+    padding-left: 37px;
+    
+}
+.s-name{
+    color: rgba(237, 230, 22, 0.884);
+    padding-left: 63px;
+}
+
+.sec_img{
+    height: 351px;
+    width: 343px
+}
+.live{
+    color: aliceblue;
+}
+.zoom{
+    color: blue;
+}
+.timing{
+    color: rgba(237, 230, 22, 0.884);
+}
+.date{
+    color: aliceblue;
+}
+.btn_div{
+    padding-left: 111px;
+}
+.sec_btn{
+    background-color: rgba(237, 230, 22, 0.884);
+    color: black;
+    /* padding-left: 100px; */
+    height: 50px;
+    width: 284px;
+    
+}
+/* Third PArtt  */
+.third{
+    background-color: black;
+    height: 650px;
+}
+.main_txt{
+    text-align: center;
+    color: white;
+}
+.main{
+    display: grid;
+    grid: auto auto / auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.t_box{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 30px;
+}
+.g-icon{
+    font-size: 45px;
+    color:yellow;
+}
+
+/* Footer ------> */
+.footer{
+    text-align: center;
+    height: 102px;
+    background-color: blue;
+    padding-top: 10px;
+}
+.f_btn{
+    
+    background-color: yellow;
+    height: 40px;
+    width: 263px;
+    
+}
+
+.footer p{
+    color: white;
+    padding-top: 6px;
+}
